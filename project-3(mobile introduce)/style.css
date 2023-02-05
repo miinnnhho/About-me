@@ -1,0 +1,52 @@
+* {
+    text-align: center;
+    font-family: 'NanumBarunGothicExtraLight';
+}
+
+/* index.html */
+.main {
+    padding-top: 232px;
+}
+
+.main mainButton {
+    width: 67px;
+    height: 22px;
+    border-radius: 50%;
+}
+
+.mainButton {
+    margin-top: 22px;
+}
+/* category-top */
+nav {
+    color: black;
+    background-color: white;
+    width: 100%;
+    /* height: 120px; */
+    line-height: 56px;
+}
+.navBar{
+    text-align: center;
+    height: 100%;
+}
+.back {
+    float: left;
+    margin: 16px 18px;
+    width: 55px;
+    cursor: pointer;
+}
+.title {
+    text-align: center;
+    font-size: 25px;
+}
+/* category-box.html */
+.CategoryBox {
+    margin-top: 286px;
+    text-align: center;
+
+}
+.right {
+    float: right;
+    margin-right: 5px;
+    
+}
