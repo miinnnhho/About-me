@@ -1,0 +1,125 @@
+* {
+    text-align: center;
+    font-family: 'NanumBarunGothicExtraLight';
+}
+
+
+/* index.html */
+.main {
+    padding-top: 232px;
+}
+
+.main mainButton {
+    width: 67px;
+    height: 22px;
+    border-radius: 50%;
+}
+
+.mainButton {
+    margin-top: 22px;
+}
+
+/* category-top */
+nav {
+    color: black;
+    background-color: white;
+    width: 100%;
+    /* height: 120px; */
+    line-height: 56px;
+}
+
+.navBar {
+    text-align: center;
+    height: 100%;
+}
+
+.back {
+    float: left;
+    margin: 16px 18px;
+    width: 55px;
+    cursor: pointer;
+}
+
+.title {
+    text-align: center;
+    font-size: 22px;
+}
+
+/* category-box.html */
+.CategoryBox {
+    margin-top: 268px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.topBox {
+    margin-bottom: 7px;
+}
+
+.right {
+    float: right;
+    margin-right: 5px;
+
+}
+
+/* me.html */
+
+.porfile-img {
+    width: 160px;
+    height: 160px;
+    border: 1px solid rgb(230, 230, 230);
+    transform: scale(1);
+    border-radius: 70%;
+    margin-top: 109px;
+    margin-right: 49px;
+
+}
+
+.information {
+    text-align: left;
+    font-size: 18px;
+    text-align: center;
+    /* margin: 7px;
+    margin-left: 90px;
+    margin-top: 17px; */
+    font-family: url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding:400');
+}
+
+.pictogram i {
+    margin-right: 10px;
+    font-size: 35px;
+    height: 20px;
+    margin: 10px;
+    margin-top: 77px;
+    border-right: 90px;
+}
+
+.fa-brands {
+    color: black;
+    opacity: 0.4
+}
+
+.fa-solid {
+    color: black;
+    opacity: 0.4
+}
+
+/*픽토그램, 이미지 반응형 커서*/
+footer i:hover {
+    transform: translate(0, -3px);
+}
+img:hover {
+    
+    transform: translate(0, -3px); /* 건들면 사진이 위로 조금 톡 올라감*/
+}
+
+/* hobby.html */
+.MainPic img {
+    border-color: blue;
+    border-image-outset: 10px;
+    border: 5px;
+    /* width: 120px;
+    height: 150px; */
+    transition: all 0.3s ease-in-out;
+}
