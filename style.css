@@ -109,9 +109,11 @@ nav {
 footer i:hover {
     transform: translate(0, -3px);
 }
+
 img:hover {
-    
-    transform: translate(0, -3px); /* 건들면 사진이 위로 조금 톡 올라감*/
+
+    transform: translate(0, -3px);
+    /* 건들면 사진이 위로 조금 톡 올라감*/
 }
 
 /* hobby.html */
@@ -119,7 +121,23 @@ img:hover {
     border-color: blue;
     border-image-outset: 10px;
     border: 5px;
-    /* width: 120px;
+    /* width 120px;
     height: 150px; */
     transition: all 0.3s ease-in-out;
+}
+
+/* project.html 사진 효과 */
+.jb-text {
+    padding: 15px 20px;
+    background-color: #444444;
+    border-radius: 5px;
+    color: #ffffff;
+    /* position: absolute; */
+    opacity: 0;
+    transition: all ease 0.5s;
+    margin: 0 490px 0 490px;
+}
+
+.jb-title:hover+.jb-text {
+    opacity: 1;
 }
