@@ -123,18 +123,3 @@ img:hover {
     transition: all 0.3s ease-in-out;
 }
 
-/* project.html 사진 효과 */
-.jb-text {
-    padding: 15px 20px;
-    background-color: #444444;
-    border-radius: 5px;
-    color: #ffffff;
-    /* position: absolute; */
-    opacity: 0;
-    transition: all ease 0.5s;
-    margin: 0 490px 0 490px;
-}
-
-.jb-title:hover+.jb-text {
-    opacity: 1;
-}

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>프로젝트</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ProjectHover.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-barun-gothic.css" rel="stylesheet">
@@ -17,7 +18,7 @@
 </head>
 
 <body style="background: rgb(230, 230, 230);">
-    
+
 
     <!-- 상단 바 -->
     <nav>
@@ -30,23 +31,54 @@
         </div>
     </nav>
     <!-- 그림 4장 -->
+    <!-- j-query효과, css 적용 -->
     <section class="MainPic">
-        <div class="topPic" style="margin-top: 40px;">
-            <a href="https://miinnnhho.netlify.app" class="jb-title"><img src="./Img/proj(1).png"
-                    style="height: 230px; width: 300px; margin: 10px; border-radius: 10%;"></a>
-            <div class="jb-text">웹버전 자기소개 페이지(수정중)<br>(HTML,CSS,JS)</div>
-            <a href="https://miinnnhhosignupin.netlify.app" class="jb-title"><img src="./Img/proj(2).png"
-                    style="height: 230px; width: 300px; margin: 10px; border-radius: 10%"></a>
-            <div class="jb-text">firebase 기반 로그인,회원가입 페이지<br>(HTML,CSS,JS)</div>
-            <a href="https://miinnnhho-mobile.netlify.app" class="jb-title"><img class="jb-title" src="./Img/proj(3).png"
-                    style="height: 230px; width: 300px; margin: 10px; border-radius: 10%"></a>
-            <div class="jb-text">모바일 버전 자기소개 페이지<br>(HTML,CSS,JS)</div>
-            <a href="https://ownan.netlify.app" class="jb-title"><img class="jb-title" src="./Img/proj(4).png"
-                    style="height: 230px; width: 300px; margin: 10px; border-radius: 10%"></a>
-            <div class="jb-text">운동기록 관리 프로그램(제작중)<br>(HTML,CSS,JS)</div>
-        </div>
+        <figure class="snip1200">
+            <img src="./Img/proj(1).png" alt="sq-sample27" />
+            <figcaption>
+                <p>자기소개 페이지</p>
+                <div class="heading">
+                    <h2><span>First</span></h2>
+                </div>
+            </figcaption>
+            <a href="https://miinnnhho.netlify.app"></a>
+        </figure>
+
+        <figure class="snip1200">
+            <img src="./Img/proj(2).png" alt="sq-sample27" />
+            <figcaption>
+                <p>로그인, 회원가입 페이지</p>
+                <div class="heading">
+                    <h2><span>Second</span></h2>
+                </div>
+            </figcaption>
+            <a href="https://miinnnhhosignupin.netlify.app"></a>
+        </figure>
+
+        <figure class="snip1200">
+            <img src="./Img/proj(3).png" alt="sq-sample27" />
+            <figcaption>
+                <p>(웹,모바일 반응형) 자기소개 페이지</p>
+                <div class="heading">
+                    <h2><span>third</span></h2>
+                </div>
+            </figcaption>
+            <a href="https://about-miinnnhho.netlify.app"></a>
+        </figure>
+
+        <figure class="snip1200">
+            <img src="./Img/proj(4).png" alt="sq-sample27" />
+            <figcaption>
+                <p>운동기록 관리 프로그램(제작중)</p>
+                <div class="heading">
+                    <h2><span>Fourth</span></h2>
+                </div>
+            </figcaption>
+            <a href="https://ownan.netlify.app"></a>
+        </figure>
 
     </section>
-
+</body>
+<script src="ProjectHover.js"></script>
 
 </html>

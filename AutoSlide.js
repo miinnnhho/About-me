@@ -17,5 +17,5 @@ function showSlides() {
   //slides 길이 초과하면 1로 재설정
   
   slides[slideIndex - 1].style.display = 'block'; //현재 slideIndex와 일치하는 걸 보여줌
-  setTimeout(showSlides, 1600); // 1.5초마다 이미지 전환
+  setTimeout(showSlides, 1600); // 1.6초마다 이미지 전환
 }
